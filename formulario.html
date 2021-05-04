@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LET'S CODER WEB</title>
+    <link rel="stylesheet" href="./archivo.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="nav">
+
+            <a class="menu" href="./home.html">
+                HOME </a>
+
+
+
+            <a class="menu" href="./conocenos.html">
+                CONÓCENOS</a>
+
+
+
+            <a class="menu" href="./contacto.html">
+                CONTACTO</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <div class="background">
+
+            <img class="logo" src="./Imagenes/letscoder-square.jpeg" alt="logo">
+        </div>
+
+        <!-- <div class="div__h1"> -->
+        <h1 class="h1"> /ET'S [ODER</h1>
+        <!-- </div> -->
+
+        <div class="div__h2">
+            <h2>Quiero incribirme</h2>
+        </div>
+        <form action="" method="GET">
+            <div class="info__personal">
+                <ul>
+                    <li>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="surname">Apellido</label>
+                        <input type="text" id="surname" name="user_surname">
+                    </li>
+                    <li>
+                        <label for="adress">Dirección</label>
+                        <input type="text" id="adress" name="user_adress">
+                    </li>
+                    <li>
+                        <label for="cp">C.P</label>
+                        <input type="number" id="cp" name="user_cp">
+                    </li>
+                    <li>
+                        <label for="city">Ciudad</label>
+                        <input type="text" id="city" name="user_city">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="user_email">
+                    </li>
+                    <li>
+                        <label for="phone">Teléfono</label>
+                        <input type="number" id="phone" name="user_phone">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info__especifica">
+                <ul>
+                    <li>
+                        <label for="bootcamp">Bootcamp</label>
+                        <input type="radio" id="fulltime" name="fulltime" checked="checked" /> Full-Time
+                        <input type="radio" id="parttime" name="fulltime" /> Part-Time
+                    </li>
+                    <li>
+                        <select name="cities">Ciudades
+                            <option>Barcelona</option>
+                            <option>Madrid</option>
+                            <option>Zaragoza</option>
+                            <option>Online</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="comienzo">Comienzo</label>
+                        <input type="date" id="comienzo" name="comienzo" min="2021-01-25" max="2021-07-09">
+                    </li>
+                    <li>
+                        <label>Tecnologías<br>
+                            <input type="checkbox" id="cb__html" value="html">HTML<br>
+                            <input type="checkbox" id="cb__css" value="css">CSS<br>
+                            <input type="checkbox" id="cb__flexbox" value="flexbox">FLEXBOX<br>
+                            <input type="checkbox" id="cb__git" value="git">GIT & GITHUB<br>
+                            <input type="checkbox" id="cb__js" value="js">JAVASCRIPT<br>
+                        </label>
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>
