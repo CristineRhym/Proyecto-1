@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     margin: 10px;
     padding: 10px;
@@ -21,17 +22,23 @@ nav{
     border-style: groove black;
     
 }
+
+ul, ol{
+    padding-left: 40px;
+}
 .menu{  display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: white;
-    color: black;
+    font-family: 'Roboto', monospace;
+    background-color:rgb(231, 226, 226);
+    color: #222;
     text-decoration: none;
     margin: 10px;
     padding: 5px;
     border:ridge 2px;
     padding-left: 15px;
     padding-right: 15px;
-    
+}
+.menu:hover{
+    box-shadow: 4px 4px 0px rgba(0,0,0, 0.9), inset 0 0 50px rgba(0,0,0, 0.3),3px 3px 10px rgba(218, 10, 10, 0.9);
 }
 
 div .logo {
@@ -41,7 +48,7 @@ div .logo {
     width: 75px;
     position: absolute;
     top: 5px;
-    margin-left: 4%;
+    margin-left: 3%;
     margin-right: auto;
     z-index: 1;
 }
@@ -82,6 +89,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow:inset 0 0 20px rgba(0,0,0, 0.3);
 }
 h2{
     display: flex;
@@ -90,27 +98,42 @@ h2{
     justify-content: center;
     align-self: center;
     font-family: 'Roboto', monospace;
-    background-color: white;
-    margin: 10px;
+    background-color:rgb(231, 226, 226);
+    margin: 20px;
     padding: 5px;
     border:ridge 2px;
     width: 30%;
 }
-
+.section__home{
+    display: flex;
+    align-items: center;
+    border: ridge black 5px;
+    padding: 40px;
+}
 .dias{
     font-family: 'Roboto', monospace; 
     font-size: 50px;
+    color: rgb(240, 240, 240);
 
 }
 .meses{
     font-family: 'Roboto', monospace;
     font-size: 20px;
+    color: rgb(240, 240, 240);
 }
 .jornada{
     font-family: 'Roboto', monospace;
     font-size: 25px;
+    color: rgb(240, 240, 240);
 }
-
+.a__button:hover{
+    width:104.61px;
+    height:39.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 0px rgba(0,0,0, 0.9), inset 0 0 50px rgba(0,0,0, 0.3),3px 3px 10px rgba(218, 10, 10, 0.9);
+}
 
 .descripcion{
     width: 50%;
@@ -120,6 +143,7 @@ h2{
     justify-content: center;
     align-self: center;
     font-family: 'Roboto', monospace;
+    color: rgb(240, 240, 240);
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -138,7 +162,10 @@ h2{
 }
 .mentor {
    display: flex;
-margin-bottom: 20px;
+   margin-bottom: 20px;
+   justify-content: space-between;
+   align-items: center;
+   color: rgb(240, 240, 240);
 }
 
 
@@ -190,4 +217,89 @@ button{
     border-bottom-style: ridge;
 	text-decoration: none;
     
+}
+.div__form{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    border: ridge;
+    background-color: rgb(231, 226, 226);
+    box-shadow: 20px 20px 0px rgba(0,0,0, 0.9), inset 0 0 50px rgba(0,0,0, 0.3),20px 20px 10px rgba(218, 10, 10, 0.9);
+}
+.info__personal, .info__especifica{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    border-bottom: ridge;
+    font-family: 'Roboto', monospace;
+
+}
+.flex__nombreyapellido,.flex__cp,.flex__email{
+display: flex;
+flex-direction: row;
+}
+.div__tabla{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+    
+}
+.tabla{
+    border: ridge;
+    border-collapse: separate;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(231, 226, 226);
+    font-family: 'Roboto', monospace;
+    
+}
+thead,tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.t1,.t2,.t3,.t4,.t5{
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    width: 250px;
+}
+.tr__thead{
+    font-size: 25px;
+    text-shadow: 1px 1px 2px #0010d2;
+    text-decoration: underline;
+
+}
+
+.div__section {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+h3{
+        font-size: 30px;
+        text-shadow: 1px 1px 2px #0010d2;
+        
+    }
+
+.section__html, .section__css{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
 }
